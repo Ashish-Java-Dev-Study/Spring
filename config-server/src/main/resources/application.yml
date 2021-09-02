@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: Configuration server
+
+server:
+  port: 9001
+
+logging:
+  level:
+    root: INFO
+    com.myapp.demo: DEBUG
+  file:
+    name: ./logs/config-server.log
