@@ -3,6 +3,8 @@ spring:
     name: Configuration server
 
 server:
+  servlet:
+    context-path: /config
   port: 9001
 
 logging:
