@@ -6,6 +6,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+//TODO : Complete the Swagger documentation for Property.
+
 @RestController
 @RequestMapping("/property")
 public class PropertyResource {
